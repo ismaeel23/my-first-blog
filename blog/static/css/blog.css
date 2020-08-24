@@ -53,3 +53,27 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
+
+.navmenu {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navmenu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none; #doesnt underline
+  font-size: 14px;
+}
+
+.navmenu a:hover {
+  background-color: #333;
+  color: red;
+}
+
+.navmenu a.active {
+  background-color: #C25100;
+  color: white;
+}
