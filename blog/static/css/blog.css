@@ -4,7 +4,7 @@ h1 a, h2 a {
 }
 
 body {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 .page-header {
@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .home h1 {
@@ -56,12 +56,16 @@ h1, h2, h3, h4 {
 }
 
 .card-body h2 a{
-  color: black;
+  color: #000000;
 }
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
     font-size: 40pt;
+}
+
+.btn {
+  font-size: 7pt;
 }
 
 .navmenu {
@@ -72,10 +76,10 @@ h1, h2, h3, h4 {
 .navmenu a {
   float: left;
   color: white;
+  font-size: 15px;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none; #doesnt underline
-  font-size: 14px;
 }
 
 .navmenu a:hover {
@@ -85,5 +89,5 @@ h1, h2, h3, h4 {
 
 .navmenu a.active {
   background-color: #C25100;
-  color: white;
+  color: #FFFFFF;
 }
