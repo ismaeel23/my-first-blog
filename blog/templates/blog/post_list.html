@@ -2,7 +2,7 @@
 
 {% block content %}
     <div class="home">
-      <h1>Home<small> Blogs</small></h1>
+      <h1>Home<small><small> Blogs</small></small></h1>
 
     {% for post in posts %}
         <!-- <div class="post">
@@ -17,10 +17,10 @@
           <div class="card-body">
             <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
             <p class="card-text">{{ post.text|linebreaksbr }}</p>
-            <a href="{% url 'post_detail' pk=post.pk %}" class="btn btn-primary">Read More &rarr;</a>
+            <a href="{% url 'post_detail' pk=post.pk %}" class="readmorebutton">Read More &rarr;</a>
           </div>
-          <div class="date">
-              Published {{ post.published_date }}
+          <div class="card-footer text-muted">
+            Published {{ post.published_date }}
           </div>
         </div>
 
